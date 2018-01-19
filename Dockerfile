@@ -12,3 +12,4 @@ ADD . /reddit-clone-firebase-react
 CMD npm start
 
 # https://github.com/facebookincubator/create-react-app/issues/3002
+#https://www.sitepoint.com/reddit-clone-react-firebase/
