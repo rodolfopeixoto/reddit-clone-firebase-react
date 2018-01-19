@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web:
+    build: .
+    image: react-cli
+    container_name: redditCLONEFireBaseReact
+    env_file:
+      - dev.env
+    volumes:
+      - .:/reddit-clone-firebase-react
+    ports:
+      - "3001:3000"
